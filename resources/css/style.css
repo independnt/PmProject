@@ -127,3 +127,23 @@ nav{
   border: 1px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.about-me{
+  position: absolute;
+  margin-top: 14.8em;
+  margin-left: 50em;
+  width: 545%;
+  /* border: 1px solid #000; */
+}
+
+.about-me h1{
+  margin-top: 10px;
+  font-size: 200%;
+  font-weight: 500;
+}
+
+.reasons-tag{
+  color: #ff5b48;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
