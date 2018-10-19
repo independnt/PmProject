@@ -17,6 +17,10 @@ html{
   text-rendering: optimizeLegibility;
 }
 
+body{
+  margin: 0px;
+}
+
 .clearfix {zoom: 1}
 .clearfix:after {
   content: '.';
@@ -24,6 +28,15 @@ html{
   display: block;
   height: 0;
   visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
 }
 
 
@@ -95,44 +108,66 @@ nav{
   font-weight: 600;
 }
 
-.facts{
-  width: 100px;
-  height: 100px;
-  position: relative;
+.main:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
-.lights-pic{
+.lights-pic img{
+  display: inline-block;
   position: absolute;
   height: 34em;
   width: auto;
-  margin-top: 15em;
-  margin-left: -24em;
+  margin-top: 10em;
+  margin-left: -20em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: brightness(50%);
 }
 
+.facts:after {
+    display: block;
+    height: 2px;
+    content: " ";
+    width: 150px;
+    margin: 0 0 10em 0;
+    margin-top: 30px;
+}
+
+.why-me {
+  margin-left: -20em;
+}
 
 .why-me h3{
-  position: absolute;
-  margin-top: 9em;
-  margin-left: 7em;
-  padding-top: 65px;
-  padding-left: 40px;
+  display: inline-block;
+  /* position: absolute; */
+  /* margin-top: 5em;
+  padding-left: 40px; */
+  /* margin-right: 20em; */
+  margin-top: 6em;
+  margin-left: 3em;
+  z-index: 10;
+  padding: 80px 50px;
+  position: relative;
   color: #fff;
   font-size: 300%;
-  width: 400%;
-  height: 200%;
+  /* width: 400%;
+  height: 200%; */
   font-weight: 300;
-  background-color: #000;
+  background-color: #383838;
   border: 1px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-me{
+  display: inline-block;
+  margin-top: 10.2em;
+  margin-left: 3em;
   position: absolute;
-  margin-top: 14.8em;
-  margin-left: 50em;
-  width: 545%;
   /* border: 1px solid #000; */
 }
 
@@ -142,8 +177,27 @@ nav{
   font-weight: 500;
 }
 
+.reasons{
+  margin-top: 10em;
+  margin-bottom: 8em;
+}
+
 .reasons-tag{
   color: #ff5b48;
   letter-spacing: 1px;
   font-weight: 500;
+}
+
+.arrow{
+  display: inline-block;
+  margin-left: 9em;
+  cursor: pointer;
+  font-size: 200%;
+  color: #ff5b48;
+  text-align: center;
+}
+
+.section-testimonials{
+  background-image: url(resources/images/art-background-min.jpg);
+  background-size: cover;
 }
