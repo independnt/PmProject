@@ -8,12 +8,31 @@
             box-sizing: border-box;
 }
 
+html{
+  background-color: #fff;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+
 /* ------------------------------------------*/
 /* NavBar */
 /*-------------------------------------------*/
 
 nav{
-  margin-top: 20px;;
+  margin-top: 10px;;
 }
 
 .nav-title {
@@ -40,7 +59,7 @@ nav{
 .nav-links li a:link,
 .nav-links li a:visited{
   text-decoration: none;
-  color: #000;
+  color: #404040;
   letter-spacing: initial;
   text-transform: uppercase;
   border-bottom: 3px solid transparent;
@@ -51,4 +70,60 @@ nav{
 .nav-links li a:hover{
   letter-spacing: 1px;
   border-bottom: 2px solid #e67e22;
+}
+
+/* ------------------------------------------*/
+/* Main */
+/*-------------------------------------------*/
+
+.main {
+  position: absolute;
+  width: 1140px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 200%;
+  font-weight: 300;
+}
+
+.main span{
+  color: 	#ff5b48;
+  font-weight: 600;
+}
+
+.facts{
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.lights-pic{
+  position: absolute;
+  height: 34em;
+  width: auto;
+  margin-top: 15em;
+  margin-left: -24em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  filter: brightness(50%);
+}
+
+
+.why-me h3{
+  position: absolute;
+  margin-top: 9em;
+  margin-left: 7em;
+  padding-top: 65px;
+  padding-left: 40px;
+  color: #fff;
+  font-size: 300%;
+  width: 400%;
+  height: 200%;
+  font-weight: 300;
+  background-color: #000;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
