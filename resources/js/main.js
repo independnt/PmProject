@@ -6,7 +6,7 @@ $(document).ready(function() {
     "I can roll with the punches. I think change is a great thing, it means we're growing. Improvement is impossible without change. I'm excited to take on new challenges, day to day.",
     `F*ck the status Quo. Probably my favorite, because no task is too small, and there's no such thing as "thats not my job". Need me to speak with clients? Help with QA? Help with pitches? Assist with programming? I can do it, and I will.`,
     "I've managed accounts, employees, and client relations. I can balance a multitude of personalities, while steering the ship in the direction it needs to go.",
-    "I'm genuinely excited about Digital Surgeons. I'm looking for a new home. I was at GigMasters for 5 years, so I'm in this for the long haul."]
+    "I'm genuinely excited about Digital Surgeons. I'm looking for a new home. I was at my previous position for nearly 5 years, so I'm in this for the long haul."]
   let reason = reasons_arr[index]
   $('.arrow').click(function(){
     $('.reasons').html(`<p class="reasons">${reason}</p>`)
